@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel = "stylesheet" href="week1.css">
+  
 </head>
 
 <body>
@@ -48,28 +49,34 @@
           </div>
         </div>
       </nav>
-      <div>
-        <p class = "title_img"><img src="titleimg.png" width = "300" height ="300"></p>    
-        <p class = "name" >MIN GYU</p>
+      <div class = "upbtn">
+        <button onclick="Date_now()" id ="date_btn" class="up_btn">date</button>
+        <button type="button" id = "trans_btn" class="up_btn">english</button>
+        <button type="button" id = "bono" class="up_btn">bonobono</button>
+        <button onClick="window.location.reload()" class="up_btn">Refresh</button>
       </div>
-      <h1 class = "title"> Introduce  </h1>
+    
+      <p class = "title_img"><img id ="title_img" src="titleimg.png" width = "300" height ="300"></p>       
+      <p id = "name" class = "name">MIN GYU</p>
+
+      <h1 class = "title" id = "intro"> Introduce  </h1>
       
       <div class = "paragraph">  
         <div class = "img_group">
 
             <section class = "img_box">
                 <a href = "https://terms.naver.com/entry.naver?docId=836865&cid=42344&categoryId=42344"><img class = "img" src = "server.png" width="200" height="200" ></a>
-                <p>Server</p>
+                <p id ="server">Server</p>
             </section>  
             
             <section class = "img_box">
                 <a href = "https://www.daegu.go.kr/intro.jsp"><img class = "img" src = "daegu.png" width="200" height="200" ></a>
-                <p>Daegu</p>
+                <p id ="daegu">Daegu</p>
             </section>  
             
             <section class = "img_box">
                 <a href = "https://www.google.com/search?q=real+madrid&rlz=1C5CHFA_enKR981KR981&oq=r&aqs=chrome.1.69i57j69i59j46i512j46i199i465i512j46i512j69i60l3.3213j0j4&sourceid=chrome&ie=UTF-8#sie=t;/m/06l22;2;/m/09gqx;mt;fp;1;;"><img class = "img" src = "realmadrid.png" width="200" height="200" ></a>
-                <p>Real Madrid</p>
+                <p id="real">Real Madrid</p>
             </section>  
             
            
@@ -78,46 +85,49 @@
         
       </div>    
 
-      <h1 class = "title">Experience</h1>
+      <h1 id = "Exp" class = "title">Experience</h1>
       
       <div class = "paragraph">
         <div class = "img_group">
             <section class = "img_box">
                 <a href = "https://www.instagram.com/p/CL9pCF4hd5v/"><img class = "img" src = "3dprint.png" width="200" height="200" ></a>
-                <p>3Dprinter</p>
+                <p id = "3d">3Dprinter</p>
             </section>  
             
             <section class = "img_box">       
                 <a href = "https://www.instagram.com/p/CWTfJ25h3-m/"><img class = "img" src = "fusion360.png" width="200" height="200" ></a>
-                <p>fusion360</p>
+                <p id = "fus">Fusion360</p>
             </section>  
             
             <section class = "img_box">
                 <a href = "https://www.instagram.com/p/CSwWK8ShZq0/"><img class = "img" src = "python.png" width="200" height="200"></a>
-                <p>Python</p>
+                <p id = "py">Python</p>
             </section>  
 
             <section class = "img_box">   
                 <a href = "https://www.instagram.com/p/CZ_nYKFFIjq/"><img class = "img" src = "arduino.png" width="200" height="200"></a>
-                <p>Arduino</p>
+                <p id = "ard">Arduino</p>
             </section>  
         </div>
       </div>
 
-      <a href = "https://www.instagram.com/minx_made/?hl=ko"><p class = "paragraph">More information..</p></a>
+      <a href = "https://www.instagram.com/minx_made/?hl=ko"><p id = "more"class = "paragraph">More information..</p></a>
 
     
 
       <div class = "snsimg">
           <a href = " http://instagram.com/minxgyuing/?hl=ko"><img class = "sns-img" src= "insta.png" width="30"height="30"></a> 
           <a href = " http://facebook.com"><img class = "sns-img" src= "facebook.png" width="30"height="30"></a> 
-          <a href = " http://github.com"><img class = "sns-img" src= "github.png" width="30"height="30"></a>          
+          <a href = " https://github.com/k0136000"><img class = "sns-img" src= "github.png" width="30"height="30"></a>          
       </div>
 
       <footer>
-        <p>Copyright MIN GYU All rights reserved.</p>
+        <p id="copy">Copyright MIN GYU All rights reserved.</p>
       </footer>
 
+
+    
+      <script src = "main.js"></script>
 </body>
 
 </html>

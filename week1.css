@@ -1,16 +1,52 @@
 body{
     background-color: #E1E6EE;
+    
 }
+
+.upbtn{
+    overflow: hidden;
+}
+.up_btn{
+    float: right;
+    font-size: 20x;
+    padding: 2px;
+    background-color: #E1E6EE;
+    color: black;
+    border: 0px;
+    border-radius: 2px;
+    text-transform: uppercase; /*모든 글자를 대문자로*/
+    letter-spacing: 2px; /*글자 사이사이마다 공간*/
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.4s;
+    margin-right: 10px;
+}   
+.up_btn:focus{
+    outline: none; /*버튼이 클릭되었을때 생기는 사각 흔적 사라지게 하는것.*/
+}
+.up_btn:hover{  /*마우스가 버튼에 올라갔을때 하는 행동*/
+    background-color: black;
+    color: white;
+    
+}
+
 .title_img {
     margin-top: 30px;
     text-align: center;
     
 }
+
 .name{
     text-align: center;
+    color: black;
     font-size: 30px;
     font-weight: bold;
-
+    text-decoration: none; /*하이퍼링크가 있는 버튼 혹은 텍스트의 밑줄을 지우는 코드*/
+}
+.name:hover{
+    color: black;
+    cursor: pointer;
+    text-align: center;
 }
 .title{
     margin-top: 90px;
@@ -50,6 +86,11 @@ body{
     box-shadow: 5px 20px 20px 0 rgba(0,0,0,0.1);
     border-radius: 50%;
 }
+.img:hover{
+    cursor: pointer;
+    transform: translateY(3px);
+
+}
 
 
 footer{
@@ -59,4 +100,5 @@ footer{
     text-align: center;
     background-color: #708090;
     padding: 100px;
+    
 }
