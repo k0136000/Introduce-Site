@@ -1,12 +1,10 @@
 body{
     background-color: #E1E6EE;
-    
 }
-
-.upbtn{
+.js-btn{
     overflow: hidden;
 }
-.up_btn{
+.up-btn{
     float: right;
     font-size: 20x;
     padding: 2px;
@@ -21,16 +19,15 @@ body{
     transition: all 0.4s;
     margin-right: 10px;
 }   
-.up_btn:focus{
+.up-btn:focus{
     outline: none; /*버튼이 클릭되었을때 생기는 사각 흔적 사라지게 하는것.*/
 }
-.up_btn:hover{  /*마우스가 버튼에 올라갔을때 하는 행동*/
+.up-btn:hover{  /*마우스가 버튼에 올라갔을때 하는 행동*/
     background-color: black;
     color: white;
     
 }
-
-.title_img {
+.title-img {
     margin-top: 30px;
     text-align: center;
     
@@ -61,25 +58,21 @@ body{
     font-weight: 400;
     color:#646972;
 }
-.snsimg{
+.sns{
     text-align: right;
 }
 .sns-img{
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1);
 }
 
-.img_box{
+.img-box{
     float: left;
     padding: 50px;
 }
-
-.img_group{
+.img-group{
     overflow: hidden;
     margin: 80px;
     text-align: center;
-}
-.exp_img{
-    margin: 100px;
 }
 .img{
     
@@ -89,10 +82,7 @@ body{
 .img:hover{
     cursor: pointer;
     transform: translateY(3px);
-
 }
-
-
 footer{
     color:white;
     font-size: 16px;
@@ -100,5 +90,4 @@ footer{
     text-align: center;
     background-color: #708090;
     padding: 100px;
-    
 }
